@@ -12,11 +12,22 @@ Back-end of Ciura Website. Coded by Masapuan web team.
 
 ### How to run
 <ul>
-  <li>Run the mysql database </li>
+  <li>Run the mysql database</li>
   <li>Create the database schema using the query I've given <code>see Ciura.sql</code></li> 
   <li>Git clone the repository <code>git clone https://github.com/AndyNotfound/BE-Ciura </code></li>
   <li>Change working directory to the cloned directory (BE-Ciura in this case) <code>cd BE-Ciura</code></li>
   <li>Install depedencies by typing <code>npm i</code></li> 
+  <li>Create the environment variables file or <code>.env</code>, detail on <code>.env.example or down below</code>
+  <br>
+    
+    .env
+      DB_NAME = "..."
+      DB_HOST = "..."
+      DB_USER = "..."
+      DB_USER_PASSWORD = "..."
+      SECRET_KEY = "..."
+    
+  </li>
   <li>Run the server by <code>node index.js</code></li>
 </ul>
 <br>
