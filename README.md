@@ -13,7 +13,7 @@ Back-end of Ciura Website. Coded by Masapuan web team.
 ### How to run
 <ul>
   <li>Run the mysql database</li>
-  <li>Create the database schema using the query I've given <code>see Ciura.sql</code></li> 
+  <li>Create the database schema using the query I've given <code>see ciura_db.sql</code></li> 
   <li>Git clone the repository <code>git clone https://github.com/AndyNotfound/BE-Ciura </code></li>
   <li>Change working directory to the cloned directory (BE-Ciura in this case) <code>cd BE-Ciura</code></li>
   <li>Install depedencies by typing <code>npm i</code></li> 
